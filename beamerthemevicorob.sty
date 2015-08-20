@@ -1,0 +1,44 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%% LE2I beamer template
+%% Guillaume Lemaitre, October 2014
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+\mode<presentation>
+
+%Required packages
+\RequirePackage{tikz}
+\RequirePackage{graphicx}
+\RequirePackage{amssymb}
+\RequirePackage{xcolor}
+\RequirePackage[absolute, overlay]{textpos}
+
+% Definition of color used in the template
+\definecolor{orounam}{HTML}{F46F1B}
+%\definecolor{azulunam}{HTML}{00294B}
+\definecolor{azulunam}{HTML}{001A83}
+\definecolor{nicewhite}{HTML}{F8FFFF}
+\definecolor{niceblack}{HTML}{333333}
+\definecolor{lightblue}{RGB}{194,193,204}% light blue
+\definecolor{grayblue}{RGB}{84,97,110}% gray blue
+\definecolor{darkblue}{rgb}{0,0.41,0.54} % dark blue
+
+
+% Define the logo of the LE2I
+\newcommand{\logoimate}{./images/logos/vicorob-logo-new-wb.pdf}
+\newcommand{\logoblanco}{./images/logos/vicorob-logo-new-ng.pdf}
+
+% Define the logo of the Universite de Bourgogne
+\newcommand{\logoudg}{./images/logos/udg-logo-wb.pdf}
+\newcommand{\logoudgnobg}{./images/logos/udg-logo.pdf}
+
+\ProcessOptions\relax
+
+% Configuration of the whole template
+\usecolortheme{vicorob}
+\useinnertheme{vicorob}
+\useoutertheme{vicorob}
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{blocks}[rounded][shadow=true]
+
+\mode<all>
