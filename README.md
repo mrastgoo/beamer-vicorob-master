@@ -1,7 +1,10 @@
-# Beamer template for LE2I - UB
+# Beamer template for Vicorob 
 
-This repository hosts a template for presentation in beamer format. It is with the color of the LE2I and the Universite de Bourgogne
+This repository hosts a template for Vicorob presentation in latex 
+Two template are availabe : 
+First template - theme : vicorob is adapted from Maria Fernanda Moreno Lopez "Cuerna" template
+Second template - theme : vicorob2 is adapted from Lilyana Vankova "Feather" presentation  
 
-Share and modify as you want.
+The colors and logos are adapted specially according to vicorob new and previous logos 
 
-Guillaume Lemaitre
+Mojdeh Rastgoo
